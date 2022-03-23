@@ -1,0 +1,70 @@
+*{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 18px; */
+    line-height: 25px;
+}
+
+h1, h2, h3 {
+    font-family: "DM Sans";
+}
+h1 {
+    font-size: 45px;
+    line-height: 132.8%;
+    color:#0D7786;
+}
+
+button {
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #FFF;
+background-color: #0D7786;
+border-radius: 7px;
+border:none;
+width: 198px;
+height:56px;
+}
+
+/* navigation bar */
+#nav-bar {
+    display: flex;
+    justify-content: space-between
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+}
+
+
+/* main */
+/* sections */
+.home-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.summary-container {
+    width: 50%;
+}
+
+.home-summary {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 300px;
+}
+
+/* haz tu cita */
+#citas{
+    display: flex;
+    align-items: center;
+}
+/* footer */
